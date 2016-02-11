@@ -26,7 +26,7 @@
 int main(void)
 {
 /*****************************************************************************/
-//  Open run length file
+//  File open
   FILE *fp = NULL;
   alt_u32 rData;
   int i = 0;
@@ -35,7 +35,7 @@ int main(void)
 
   printf("test_start\n");
 
-  fp = fopen("/mnt/host/learning.txt", "r");
+  fp = fopen("/mnt/host/test1.txt", "r");
 
   if(fp == NULL)
   {
