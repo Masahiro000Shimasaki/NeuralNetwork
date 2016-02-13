@@ -1,0 +1,2 @@
+test1.txtは学習用データ
+hello_world.cはNios用プログラムです．Niosでファイルシステムを使用する場合
