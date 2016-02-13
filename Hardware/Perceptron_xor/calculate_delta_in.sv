@@ -1,7 +1,7 @@
 module calculate_delta_in(
-  input				iCLK,
-  input	[31:0]	iERROR,
-  input	[31:0]	iX,
+  input         iCLK,
+  input	[31:0]  iERROR,
+  input	[31:0]  iX,
   
   output	[31:0]	oDELTA
 );
